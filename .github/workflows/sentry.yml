@@ -1,0 +1,26 @@
+name: Sentry
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        run: |
+          yarn install
+          yarn build
+      - name: Create Sentry release
+        uses: getsentry/action-release@v1.1.5
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+          SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
+          GENERATE_SOURCEMAP: true
+        with:
+          environment: production
+          sourcemaps: ./build
