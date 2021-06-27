@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sentry-sample-react/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/sentry-sample-react/static/js/main.e76f6bed.chunk.js",
+    "main.js.map": "/sentry-sample-react/static/js/main.e76f6bed.chunk.js.map",
+    "runtime-main.js": "/sentry-sample-react/static/js/runtime-main.0dfafe8e.js",
+    "runtime-main.js.map": "/sentry-sample-react/static/js/runtime-main.0dfafe8e.js.map",
+    "static/js/2.b04db4d2.chunk.js": "/sentry-sample-react/static/js/2.b04db4d2.chunk.js",
+    "static/js/2.b04db4d2.chunk.js.map": "/sentry-sample-react/static/js/2.b04db4d2.chunk.js.map",
+    "static/js/3.6073c6da.chunk.js": "/sentry-sample-react/static/js/3.6073c6da.chunk.js",
+    "static/js/3.6073c6da.chunk.js.map": "/sentry-sample-react/static/js/3.6073c6da.chunk.js.map",
+    "index.html": "/sentry-sample-react/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/sentry-sample-react/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b04db4d2.chunk.js.LICENSE.txt": "/sentry-sample-react/static/js/2.b04db4d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dfafe8e.js",
+    "static/js/2.b04db4d2.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.e76f6bed.chunk.js"
+  ]
+}
