@@ -8,6 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: build setting
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - name: yarn build
